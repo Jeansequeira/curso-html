@@ -1,21 +1,15 @@
 h1{
-    color: #f07167;
+    color: darksalmon;
+}
+a:link,a:visited{
+    background-color:crimson;
+    color:white ;
+    padding: 10px 20px;
+    text-align: center;
     text-decoration: none;
+    display:inline-block ;
 }
-
-    a:link {
-        color:#fb8500
+a:hover, a:active{
+    background-color: darkorchid;
 }
-a:visited{
-    color:#219ebc;
-    text-decoration: none;
-}
-/*cuando nos ponemos encima del link*/
-a:hover{
-    color: #8ecae6;
-    text-decoration: underline;
-}
-a:active{
-    color: #023047;
-    text-decoration: underline;
-}
+    
