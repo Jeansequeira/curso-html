@@ -1,0 +1,10 @@
+h1{
+    color:cornflowerblue;
+}
+p{
+    color:brown;
+    background-color: coral;
+    padding: 15px;
+    border: 10px solid orange;
+    margin: 50px;
+}

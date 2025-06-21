@@ -1,0 +1,23 @@
+h1{
+    color:#cdb4db;
+    text-align: center;
+}
+p{
+    color:#bde0fe;
+    background-color: #ffafcc;
+    padding: 15px;
+    border: 10px solid #a2d2ff;
+    /*
+    margin: 20px;
+    margin-top: 40px;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-bottom: 20px;
+    */
+    margin: 40px 10px 20px 10px;
+    margin:auto 50px;
+    text-align:center ;
+}
+
+
+  
