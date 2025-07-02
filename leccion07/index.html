@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios en html</title>
+</head>
+<body>
+    <h1>formularios en HTML</h1>
+    <form>
+    <label for="nombre">nombre:</label><br/>
+    <input type="text" id="nombre" placeholder="escribe tu nombre" required="true"/><br/>
+
+    <label for="apellido">apellido:</label><br/>
+    <input type="text" id="apellido" placeholder="escribe tu apellido" required="true"/><br/>
+
+    <label for="email">email:</label><br/>
+    <input type="email" id="email" placeholder="escribe tu correo electronico" required="true"/><br/>
+    <br/>
+    <label for="edad" id="edad" ></label>
+    <input type="number" id="edad" placeholder="ingrese su edad" step="any" required="true"><br/>
+
+    <label for="password">password:</label><br/>
+    <input type="password" id="password" required="true"><br/>
+
+    <input type="submit" value="enviar"/>
+    <input type="submit"  formnovalidate="formnovalidate" value="enviar sin validar"/>
+    </form>
+</body>
+</html>
