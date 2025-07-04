@@ -3,28 +3,23 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Formularios en html</title>
+    <title>Formulario Login</title>
+    <link rel="stylesheet" href="/css/estilos.css">
 </head>
 <body>
-    <h1>formularios en HTML</h1>
-    <form>
-    <label for="nombre">nombre:</label><br/>
-    <input type="text" id="nombre" placeholder="escribe tu nombre" required="true"/><br/>
+    <div class="contenedor">
+        <H2>Login</H2>
+        <form id="forma" name="forma" method="post">
+            <label for="usuario">usuario</label>
+            <input type="text" id="usuario" name="usuario" required="true"/>
+            
+     <div class="elemento">
+        <label for="password">password</label>
+        <input type="password" id="password" name="password" required="true"/>
 
-    <label for="apellido">apellido:</label><br/>
-    <input type="text" id="apellido" placeholder="escribe tu apellido" required="true"/><br/>
-
-    <label for="email">email:</label><br/>
-    <input type="email" id="email" placeholder="escribe tu correo electronico" required="true"/><br/>
-    <br/>
-    <label for="edad" id="edad" ></label>
-    <input type="number" id="edad" placeholder="ingrese su edad" step="any" required="true"><br/>
-
-    <label for="password">password:</label><br/>
-    <input type="password" id="password" required="true"><br/>
-
-    <input type="submit" value="enviar"/>
-    <input type="submit"  formnovalidate="formnovalidate" value="enviar sin validar"/>
+        <div class="elemento">
+            <input type="submit" value="enviar">
+     </div>
     </form>
 </body>
 </html>
